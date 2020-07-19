@@ -1,9 +1,8 @@
 import React from "react";
+import MainCt from './containers/MainCt'
 
-const App = () => (
-  <div>
-    <h1>Welcome to React</h1>
-  </div>
-);
+const App = () => {
+  return <MainCt />
+};
 
 export default App;
